@@ -2,31 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archipelago</title>
-    <style>
-        /* Make the iframe fill the entire viewport */
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Archipelago</title>
+  <style>
+    /* Fill the entire viewport and remove default margins */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
 
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    /* Set background color */
+    body {
+      background-color: #121212;
+    }
+
+    /* iFrame should occupy the whole screen */
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 
 <body>
-
-    <!-- iFrame embedding the external site -->
-    <iframe src="https://textcraft-idea-saver-31.lovable.app/"></iframe>
+  <!-- iFrame embedding the external site -->
+  <iframe src="https://textcraft-idea-saver-31.lovable.app/"></iframe>
 </body>
 
 </html>
